@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Javascript/estacionamento/estacionamento/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Javascript/estacionamento/estacionamento/css/style.css">
+    <title>Sistema de Estacionamento</title>
+</head>
+<body onload="mostrapatio">
+
+    <div class="container">
+        <div class="header">
+            <h2>Estacionamento Rotativo <small>24h</small></h2>
+             
+            <div class="jumbotron">
+                <form id="formulario">
+                    <div>              
+                        <label> Modelo do veículo:</label>
+                        <input type="text" name="" class="form-control" id="modeloVeiculo" placeholder="Digite o modelo do veículo">
+                    </div>
+                    <button type="text" class="btn btn-primary">Adicionar</button>
+                </form>    
+            </div>
+
+            <div class="row marketing">
+                <div class="col-lg-12">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Modelo</th>
+                                <th>Placa</th>
+                                <th>Entrada</th>
+                                <th>Saida</th>
+                            </tr>
+                        </thead>
+                        <tbody id="resultados">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    
+</body>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+    <!--<script src="/Javascript/estacionamento/estacionamento/script/jquery.js"></script>-->
+    <script src="/Javascript/estacionamento/estacionamento/script/bootstrap.min.js"></script>
+</html>
