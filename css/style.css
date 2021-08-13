@@ -38,7 +38,8 @@ body{
 }
 .jumbotron .btn{
     padding: 14px 24px;
-    font-size: 21px;
+    font-size: 20px;
+    margin: 14px;
 }
 .marketing p + h4{
     margin-top: 28px;
